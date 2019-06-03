@@ -7,14 +7,23 @@
 	<title>campus-kart.com</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-	<header><a href="index.html"><img class="img" src="logo2.png"></a></header>
+	<header><div class="row">
+		<div class="col-lg-12"><p id="top"></p></div>
+	</div>
+	<a href="index.html"><img class="img" src="logo2.png"></a>
 <div><form>
 	<input id="search" type="text" name="items/products" />
 	
 	<a href="#"><input id="srchb" type="submit" name="SEARCH" value="SEARCH" /></a>
 </form></div>
+<div class="container-fluid">
+	<a id="login" href="login.html">login/signup</a>
+</div>
+<a href="cart.html"><i class="material-icons" id="icon">add_shopping_cart</i><p id="cart">my cart</p></a>
+</header>
 
 </body>
 </html>
