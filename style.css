@@ -9,6 +9,39 @@ body {
 	color: white;
 	background-color: #61122f;
 }
-h1 {
-	background-color: #73001a
+
+
+
+#head {
+	position: relative;
+	text-align: center;
+}
+.img {
+	width: 15%;
+	height: 10%; 
+}
+#search {
+	background-color: black;
+	border-color: blue;
+	padding: 10px 250px 10px 30px;
+	margin: 1px;
+	position: relative;
+	left: 300px;
+	bottom: 60px;
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+	font-family: cursive;
+}
+#srchb {
+background-color: #8080ff;
+font-family: cursive;
+	width: 100px;
+	height: 45px;
+	margin: 10px solid green;
+	padding: 10px solid black;
+	position: relative;
+	bottom: 59px;
+	left: 290px;
+	font-weight: bold;
 }
