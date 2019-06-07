@@ -113,3 +113,11 @@ a {
     font-color: white;
     color: white;
 }
+h1 {
+    color: yellow;
+    font-family: cursive;
+    text-align: center;
+   float: fixed;
+   position: relative;
+   bottom: 30px;
+}
