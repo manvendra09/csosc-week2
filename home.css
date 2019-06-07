@@ -39,6 +39,7 @@ position: relative;
 bottom: 40px;
 left: 5cm;
 font-style: italic;
+float: fixed;
 
 
 }
@@ -53,13 +54,9 @@ font-style: italic;
 	float: right;
 	color: red;
 }
-#top {
-	float: right;
-	font-family: cursive;
-	position: relative;
-	bottom: 40px;
-	right: 15cm;
-	font-size: 50px;
+ #top {
+	color: black;
+	
 }
 
 .slide1{
@@ -95,4 +92,11 @@ h1 {
 }
 p {
 	color: white;
+}
+h1 {
+	color: yellow;
+	font-family: cursive;
+	text-align: center;
+   float: fixed;
+   position: relative;
 }
